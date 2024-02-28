@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+    color: #373A3C;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+hr {
+    border-width: 3px;
+    ;
+    color: #373A3C solid;
+    opacity: 100%;
+}
+
+#hrcentro {
+    border-width: 3px;
+    color: #373A3C solid;
+    opacity: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+    color: white;
+
+}
+
+nav {
+    font-size: 16px;
+    background-color: #373A3C;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+main #h1prinical {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+main h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main #botonprincipal {
+    font-weight: 400;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg:#373A3C;
+    --bs-tooltip-color: white;
+}
+/* #textoprinci{
+    display:inline-block;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+} */
+
+@media only screen and (max-width:800px) {
+    .carruselmedia {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #hrcentro {
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    #textoprinci {
+        text-align: center;
+    }
+}
+
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    background-color: #373A3C;
+    width: 13px;
+    height: 13px;
+    bottom: -60px;
+    position: relative;
+}
+
+#textocontariner {
+    font-size: 20px;
+}
+
+.card-body p {
+    font-size: 16px;
+}
+
+.colorcoral {
+    background-color: #DC3545;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.colorcoral h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.colorcoral .h3coral {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.colorcoral .logorico {
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.colorcoral .btn {
+    color: white;
+    width: 25%;
+    border-color: #dddddd;
+}
+
+footer {
+    background-color: #373A3C;
+}
